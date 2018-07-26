@@ -1,0 +1,11 @@
+html,body,div,span,object,iframe,section,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,figure,figcaption,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,legend,table,span,tr,th {border: 0px;padding: 0px; /*font-size: 100%;*/ margin: 0px;font-family: inherit; -webkit-font-smoothing: subpixel-antialiased;font-weight:normal;}
+body {background:#fff ;color:#666666;line-height: 20px;font-size: 12px;font-family:"Arial", 'Microsoft Yahei',"Lucida Grande", "Tahoma","Helvetica", "sans-serif";margin: 0px;-webkit-text-size-adjust: none;}
+input,textarea,select{font-family:"Arial",'Microsoft Yahei',"Lucida Grande", "Tahoma", "Helvetica", "sans-serif";background:none;border:none;font-size:12px;outline:none;}
+html{overflow-x: hidden;}
+img, object { max-width: 100%;-ms-interpolation-mode: bicubic; }
+a,a:link {text-decoration: none;color:#323232;}
+a:hover{text-decoration:none;color:#D2101B;}
+ul, li {list-style-type:none;}
+.fll{float:left;}
+.flr{float:right;}
+.clear::after{content:"";height:0;clear: both;overflow: hidden;display: block;visibility: hidden;}
