@@ -185,15 +185,19 @@
                 })
             },
             searchHouse() {
-                this.$router.push({path:"/used_house_list",query:{q:this.keywords}})
+                this.$router.push({path:"/used_house_list",query:{q:this.keywords}});
             },
             keyUp(key) {
                 if(key.keyCode == 13) {
                     this.searchHouse()
                 }
+            },
+            handleScroll() {
+                console.log(111);
             }
         },
         mounted() {
+            window.addEventListener('scroll',this.handleScroll)
             this.loading();
             this.getData();
         },
